@@ -27,20 +27,5 @@ const sendEmail = async({
 
 };
 
-// const transporter = nodemailer.createTransport({
-//   host: 'smtp.gmail.com', // Gmail Host
-//   port: 465, // Port
-//   secure: true, // this is true as port is 465
-//   auth: {
-//   user: 'correo@correo.com', //Gmail username
-//   pass: '123456789' // Gmail password
-//   }});
-//   const info = await transporter.sendMail({
-//   from: "I'm Hacker Man<arpe@correo.com>",
-//   to: '1@correo.com',
-//   subject: 'Email Send NodeMailer',
-//   html: contentHTML
-//   });
-
 
 module.exports = sendEmail;
